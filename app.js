@@ -56,6 +56,6 @@ app.get("/", function(req, res){
     res.sendFile(__dirname + "/signup.html")
 })
 
-app.listen(3000, function(){
+app.listen("PORT" || 3000, function(){
     console.log("Server started at port 3000.");
 })
